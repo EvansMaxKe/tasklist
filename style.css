@@ -1,0 +1,105 @@
+*{
+    box-sizing:border-box;
+    margin:0 ;
+    padding:0;
+}
+body{
+    background-color : rgb(27, 27, 27);
+    margin:0 auto;
+    padding:0 auto;
+    font-family :georgia;
+    overflow-x: hidden;
+   
+}
+div.container{
+    text-align: center;
+}
+h2.head{
+    font-family :georgia;
+    font-size: 30px;
+   color: yellow;
+   margin:2% 5%;
+   
+}
+form{
+    margin:2% 5%;
+    font-size: 15px;
+    width: 100%;
+}
+#new-task-input{
+    background-color : darkslateblue;
+    border:2px solid green;
+    font-size: 15px;
+    color:white;
+    border-radius:8px;
+    padding:5px;
+    width: 50%;
+}
+#new-task-submit{
+    padding:5px;
+    color:pink;
+    background : linear-gradient(to right, red, green, orange);
+    border:1px solid lightblue;
+    margin:3%;
+    font-size: 20px;
+    font-weight:bolder;
+    border-radius:7px;
+}
+h3{
+    color:yellow;
+    
+}
+
+.tasks{
+text-align: center;
+}
+.task{
+    background-color :darkslateblue;
+    margin: 1.5% auto;
+    display:flex;
+    border-radius:4px;
+    justify-content :space-between;
+    width: 50%;
+}
+.task .content{
+    color:white;
+    
+}
+.text{
+    background-color : gray;
+    border:2px solid green;
+    font-size: 14px;
+    color:white;
+    border-radius:8px;
+    padding:5px;
+    margin:3%;
+    font-style :italic;
+}
+.actions{
+    display :flex;
+    margin: 0 3%;
+}
+.edit{
+    padding:1%;
+    color:green;
+    background : linear-gradient(to right, yellow, white, orangered);
+    border:1px solid lightblue;
+    margin:3%;
+    font-size: 20px;
+    font-weight:bolder;
+    border-radius:7px;
+}
+.delete{
+    padding:1%;
+    color:red;
+    background : linear-gradient(to right, white, black, orange);
+    border:1px solid lightblue;
+    margin:3%;
+    font-size: 20px;
+    font-weight:bolder;
+    border-radius:7px;
+}
+section{
+    text-align: center;
+    margin: 0 auto;
+}
